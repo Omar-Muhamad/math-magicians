@@ -1,1 +1,1 @@
-# Math-Magitions
+# Math-Magicions
