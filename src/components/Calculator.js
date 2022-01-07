@@ -9,14 +9,19 @@ class Calculator extends React.Component {
 
   clickHandler = (e) => {
     const result = calculate(this.state, e.target.textContent);
-    console.log(result);
     this.setState(result);
   }
 
   render() {
+    const { total, next, operation } = this.state;
+
     return (
       <div className="container">
-        <div className="output">0</div>
+        <div className="output" id="output">
+          {total && total}
+          {operation && operation}
+          {next && next}
+        </div>
         <div className="calculatorBtns">
           <button className="acBtn gray" type="button" onClick={this.clickHandler}>AC</button>
           <button className="plusMinusBtn gray" type="button" onClick={this.clickHandler}>+/-</button>
