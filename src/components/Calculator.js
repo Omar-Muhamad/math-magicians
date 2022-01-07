@@ -26,7 +26,7 @@ class Calculator extends React.Component {
           <button className="acBtn gray" type="button" onClick={this.clickHandler}>AC</button>
           <button className="plusMinusBtn gray" type="button" onClick={this.clickHandler}>+/-</button>
           <button className="PercentageBtn gray" type="button" onClick={this.clickHandler}>%</button>
-          <button className="operatorBtn" type="button" onClick={this.clickHandler}>+</button>
+          <button className="operatorBtn" type="button" onClick={this.clickHandler}>÷</button>
           <button className="digitBtn" type="button" onClick={this.clickHandler}>7</button>
           <button className="digitBtn" type="button" onClick={this.clickHandler}>8</button>
           <button className="digitBtn" type="button" onClick={this.clickHandler}>9</button>
