@@ -6,13 +6,15 @@ const Header = () => (
       <Link to="/">Math Magicians</Link>
     </div>
     <nav className="navbar">
-      <ul>
+      <ul className="navLinks">
         <li>
           <Link to="/">Home</Link>
         </li>
+        <li>|</li>
         <li>
           <Link to="/Calculator">Calculator</Link>
         </li>
+        <li>|</li>
         <li>
           <Link to="/Quote">Quote</Link>
         </li>
