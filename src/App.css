@@ -20,7 +20,8 @@ ul {
   list-style: none;
 }
 
-a, li {
+a,
+li {
   text-decoration: none;
   color: #000;
   font-size: 1.2rem;
@@ -37,7 +38,8 @@ a, li {
   gap: 20px;
 }
 
-.hero, .quote {
+.hero,
+.quote {
   height: calc(100vh - 80px);
   width: 80%;
   margin: 0 auto;
@@ -49,7 +51,7 @@ a, li {
 }
 
 p {
-  background-color: #000000cc;
+  background-color: #000c;
   color: #fff;
   padding: 2rem;
   border-radius: 2rem;
@@ -85,7 +87,7 @@ button:hover {
   padding: 1rem;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
 .wraper {
