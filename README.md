@@ -7,6 +7,8 @@
 ## Site Screenshots
 
 ![screenshot](./Screenshot-1.png)
+![screenshot](./Screenshot-2.png)
+![screenshot](./Screenshot-3.png)
 
 ## Built With
 
